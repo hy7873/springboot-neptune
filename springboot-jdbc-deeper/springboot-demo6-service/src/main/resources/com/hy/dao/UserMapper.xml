@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hy.dao.UserMapper">
+	<sql id="Base_Column_List">
+			user_code,
+			mobile,
+			password,
+			gesture_password,
+			type,
+			status,
+			open_account_status,
+			platform,
+			client,
+			version,
+			channal,
+			register_code,
+			register_ip,
+			last_login_time,
+			last_login_ip,
+			create_time,
+			update_time,
+			nickname,
+			openid,
+			city,
+			headimgurl,
+			id
+	</sql>
+	
+	<update id="update" parameterType="com.hy.model.User">
+	    update user 
+	    <set>
+				<if test="null != userCode"> user_code = #{ userCode ,jdbcType = VARCHAR},</if>
+				<if test="null != mobile"> mobile = #{ mobile ,jdbcType = VARCHAR},</if>
+				<if test="null != password"> password = #{ password ,jdbcType = VARCHAR},</if>
+				<if test="null != gesturePassword"> gesture_password = #{ gesturePassword ,jdbcType = INTEGER},</if>
+				<if test="null != type"> type = #{ type ,jdbcType = TINYINT},</if>
+				<if test="null != status"> status = #{ status ,jdbcType = TINYINT},</if>
+				<if test="null != openAccountStatus"> open_account_status = #{ openAccountStatus ,jdbcType = TINYINT},</if>
+				<if test="null != platform"> platform = #{ platform ,jdbcType = CHAR},</if>
+				<if test="null != client"> client = #{ client ,jdbcType = TINYINT},</if>
+				<if test="null != version"> version = #{ version ,jdbcType = VARCHAR},</if>
+				<if test="null != channal"> channal = #{ channal ,jdbcType = INTEGER},</if>
+				<if test="null != registerCode"> register_code = #{ registerCode ,jdbcType = VARCHAR},</if>
+				<if test="null != registerIp"> register_ip = #{ registerIp ,jdbcType = INTEGER},</if>
+				<if test="null != lastLoginTime"> last_login_time = #{ lastLoginTime ,jdbcType = TIMESTAMP},</if>
+				<if test="null != lastLoginIp"> last_login_ip = #{ lastLoginIp ,jdbcType = INTEGER},</if>
+				<if test="null != createTime"> create_time = #{ createTime ,jdbcType = TIMESTAMP},</if>
+				<if test="null != updateTime"> update_time = #{ updateTime ,jdbcType = TIMESTAMP},</if>
+				<if test="null != nickname"> nickname = #{ nickname ,jdbcType = VARCHAR},</if>
+				<if test="null != openid"> openid = #{ openid ,jdbcType = VARCHAR},</if>
+				<if test="null != city"> city = #{ city ,jdbcType = VARCHAR},</if>
+				<if test="null != headimgurl"> headimgurl = #{ headimgurl ,jdbcType = VARCHAR},</if>
+				<if test="null != id"> id = #{ id ,jdbcType = BIGINT}</if>
+	    </set>
+	    where ID = #{id,jdbcType=NUMERIC}
+	</update>
+	
+	
+	<insert id="save" parameterType="com.hy.model.User">
+		<selectKey resultType="long" keyProperty="id" order="AFTER">
+			SELECT
+			LAST_INSERT_ID()
+		</selectKey>
+		insert into user (
+	               <include refid="Base_Column_List"/>
+		) VALUES (
+				#{userCode,jdbcType=VARCHAR},
+				#{mobile,jdbcType=VARCHAR},
+				#{password,jdbcType=VARCHAR},
+				#{gesturePassword,jdbcType=INTEGER},
+				#{type,jdbcType=TINYINT},
+				#{status,jdbcType=TINYINT},
+				#{openAccountStatus,jdbcType=TINYINT},
+				#{platform,jdbcType=CHAR},
+				#{client,jdbcType=TINYINT},
+				#{version,jdbcType=VARCHAR},
+				#{channal,jdbcType=INTEGER},
+				#{registerCode,jdbcType=VARCHAR},
+				#{registerIp,jdbcType=INTEGER},
+				#{lastLoginTime,jdbcType=TIMESTAMP},
+				#{lastLoginIp,jdbcType=INTEGER},
+				#{createTime,jdbcType=TIMESTAMP},
+				#{updateTime,jdbcType=TIMESTAMP},
+				#{nickname,jdbcType=VARCHAR},
+				#{openid,jdbcType=VARCHAR},
+				#{city,jdbcType=VARCHAR},
+				#{headimgurl,jdbcType=VARCHAR},
+				#{id,jdbcType=BIGINT}
+		)
+	</insert>
+	
+	<select id="getByCondition" parameterType="com.hy.model.User" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List"/> 
+		  from user
+		 <where>
+				<if test="null != userCode"> and user_code=#{userCode,jdbcType=VARCHAR}</if>
+				<if test="null != mobile"> and mobile=#{mobile,jdbcType=VARCHAR}</if>
+				<if test="null != password"> and password=#{password,jdbcType=VARCHAR}</if>
+				<if test="null != gesturePassword"> and gesture_password=#{gesturePassword,jdbcType=INTEGER}</if>
+				<if test="null != type"> and type=#{type,jdbcType=TINYINT}</if>
+				<if test="null != status"> and status=#{status,jdbcType=TINYINT}</if>
+				<if test="null != openAccountStatus"> and open_account_status=#{openAccountStatus,jdbcType=TINYINT}</if>
+				<if test="null != platform"> and platform=#{platform,jdbcType=CHAR}</if>
+				<if test="null != client"> and client=#{client,jdbcType=TINYINT}</if>
+				<if test="null != version"> and version=#{version,jdbcType=VARCHAR}</if>
+				<if test="null != channal"> and channal=#{channal,jdbcType=INTEGER}</if>
+				<if test="null != registerCode"> and register_code=#{registerCode,jdbcType=VARCHAR}</if>
+				<if test="null != registerIp"> and register_ip=#{registerIp,jdbcType=INTEGER}</if>
+				<if test="null != lastLoginTime"> and last_login_time=#{lastLoginTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != lastLoginIp"> and last_login_ip=#{lastLoginIp,jdbcType=INTEGER}</if>
+				<if test="null != createTime"> and create_time=#{createTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != updateTime"> and update_time=#{updateTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != nickname"> and nickname=#{nickname,jdbcType=VARCHAR}</if>
+				<if test="null != openid"> and openid=#{openid,jdbcType=VARCHAR}</if>
+				<if test="null != city"> and city=#{city,jdbcType=VARCHAR}</if>
+				<if test="null != headimgurl"> and headimgurl=#{headimgurl,jdbcType=VARCHAR}</if>
+				<if test="null != id"> and id=#{id,jdbcType=BIGINT}</if>
+		 </where>
+	</select>
+	
+	<select id="getListByCondition" parameterType="com.hy.model.User" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List"/>
+		  from user
+		 <where>
+				<if test="null != userCode"> and user_code=#{userCode,jdbcType=VARCHAR}</if>
+				<if test="null != mobile"> and mobile=#{mobile,jdbcType=VARCHAR}</if>
+				<if test="null != password"> and password=#{password,jdbcType=VARCHAR}</if>
+				<if test="null != gesturePassword"> and gesture_password=#{gesturePassword,jdbcType=INTEGER}</if>
+				<if test="null != type"> and type=#{type,jdbcType=TINYINT}</if>
+				<if test="null != status"> and status=#{status,jdbcType=TINYINT}</if>
+				<if test="null != openAccountStatus"> and open_account_status=#{openAccountStatus,jdbcType=TINYINT}</if>
+				<if test="null != platform"> and platform=#{platform,jdbcType=CHAR}</if>
+				<if test="null != client"> and client=#{client,jdbcType=TINYINT}</if>
+				<if test="null != version"> and version=#{version,jdbcType=VARCHAR}</if>
+				<if test="null != channal"> and channal=#{channal,jdbcType=INTEGER}</if>
+				<if test="null != registerCode"> and register_code=#{registerCode,jdbcType=VARCHAR}</if>
+				<if test="null != registerIp"> and register_ip=#{registerIp,jdbcType=INTEGER}</if>
+				<if test="null != lastLoginTime"> and last_login_time=#{lastLoginTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != lastLoginIp"> and last_login_ip=#{lastLoginIp,jdbcType=INTEGER}</if>
+				<if test="null != createTime"> and create_time=#{createTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != updateTime"> and update_time=#{updateTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != nickname"> and nickname=#{nickname,jdbcType=VARCHAR}</if>
+				<if test="null != openid"> and openid=#{openid,jdbcType=VARCHAR}</if>
+				<if test="null != city"> and city=#{city,jdbcType=VARCHAR}</if>
+				<if test="null != headimgurl"> and headimgurl=#{headimgurl,jdbcType=VARCHAR}</if>
+				<if test="null != id"> and id=#{id,jdbcType=BIGINT}</if>
+		 </where>
+	</select>
+
+	<select id="getListByConditionLike" parameterType="com.hy.model.User" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List"/>
+		from user
+		<where>
+			<if test="null != userCode"> and user_code like '%${userCode}%'</if>
+			<if test="null != mobile"> and mobile like '%${mobile}%'</if>
+		</where>
+	</select>
+
+	<select id="getPageList"  resultMap="BaseResultMap" parameterType="com.hy.model.User">
+		select <include refid="Base_Column_List"/> 
+		  from user
+		<if test="null != model">
+		 <where>
+				<if test="null != userCode"> and user_code=#{userCode,jdbcType=VARCHAR}</if>
+				<if test="null != mobile"> and mobile=#{mobile,jdbcType=VARCHAR}</if>
+				<if test="null != password"> and password=#{password,jdbcType=VARCHAR}</if>
+				<if test="null != gesturePassword"> and gesture_password=#{gesturePassword,jdbcType=INTEGER}</if>
+				<if test="null != type"> and type=#{type,jdbcType=TINYINT}</if>
+				<if test="null != status"> and status=#{status,jdbcType=TINYINT}</if>
+				<if test="null != openAccountStatus"> and open_account_status=#{openAccountStatus,jdbcType=TINYINT}</if>
+				<if test="null != platform"> and platform=#{platform,jdbcType=CHAR}</if>
+				<if test="null != client"> and client=#{client,jdbcType=TINYINT}</if>
+				<if test="null != version"> and version=#{version,jdbcType=VARCHAR}</if>
+				<if test="null != channal"> and channal=#{channal,jdbcType=INTEGER}</if>
+				<if test="null != registerCode"> and register_code=#{registerCode,jdbcType=VARCHAR}</if>
+				<if test="null != registerIp"> and register_ip=#{registerIp,jdbcType=INTEGER}</if>
+				<if test="null != lastLoginTime"> and last_login_time=#{lastLoginTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != lastLoginIp"> and last_login_ip=#{lastLoginIp,jdbcType=INTEGER}</if>
+				<if test="null != createTime"> and create_time=#{createTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != updateTime"> and update_time=#{updateTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != nickname"> and nickname=#{nickname,jdbcType=VARCHAR}</if>
+				<if test="null != openid"> and openid=#{openid,jdbcType=VARCHAR}</if>
+				<if test="null != city"> and city=#{city,jdbcType=VARCHAR}</if>
+				<if test="null != headimgurl"> and headimgurl=#{headimgurl,jdbcType=VARCHAR}</if>
+				<if test="null != id"> and id=#{id,jdbcType=BIGINT}</if>
+		 </where>
+		</if>
+		 LIMIT #{pageNo},#{pageSize}
+	</select>
+
+	<select id="totalSize"  resultType="java.lang.Long" parameterType="com.hy.model.User">
+		select 
+			count(1)
+		  from user
+		 <where>
+				<if test="null != userCode"> and user_code=#{userCode,jdbcType=VARCHAR}</if>
+				<if test="null != mobile"> and mobile=#{mobile,jdbcType=VARCHAR}</if>
+				<if test="null != password"> and password=#{password,jdbcType=VARCHAR}</if>
+				<if test="null != gesturePassword"> and gesture_password=#{gesturePassword,jdbcType=INTEGER}</if>
+				<if test="null != type"> and type=#{type,jdbcType=TINYINT}</if>
+				<if test="null != status"> and status=#{status,jdbcType=TINYINT}</if>
+				<if test="null != openAccountStatus"> and open_account_status=#{openAccountStatus,jdbcType=TINYINT}</if>
+				<if test="null != platform"> and platform=#{platform,jdbcType=CHAR}</if>
+				<if test="null != client"> and client=#{client,jdbcType=TINYINT}</if>
+				<if test="null != version"> and version=#{version,jdbcType=VARCHAR}</if>
+				<if test="null != channal"> and channal=#{channal,jdbcType=INTEGER}</if>
+				<if test="null != registerCode"> and register_code=#{registerCode,jdbcType=VARCHAR}</if>
+				<if test="null != registerIp"> and register_ip=#{registerIp,jdbcType=INTEGER}</if>
+				<if test="null != lastLoginTime"> and last_login_time=#{lastLoginTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != lastLoginIp"> and last_login_ip=#{lastLoginIp,jdbcType=INTEGER}</if>
+				<if test="null != createTime"> and create_time=#{createTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != updateTime"> and update_time=#{updateTime,jdbcType=TIMESTAMP}</if>
+				<if test="null != nickname"> and nickname=#{nickname,jdbcType=VARCHAR}</if>
+				<if test="null != openid"> and openid=#{openid,jdbcType=VARCHAR}</if>
+				<if test="null != city"> and city=#{city,jdbcType=VARCHAR}</if>
+				<if test="null != headimgurl"> and headimgurl=#{headimgurl,jdbcType=VARCHAR}</if>
+				<if test="null != id"> and id=#{id,jdbcType=BIGINT}</if>
+		 </where>
+	</select>
+	
+	<resultMap type="com.hy.model.User" id="BaseResultMap">
+				<result column="user_code" property="userCode" jdbcType="VARCHAR" />
+				<result column="mobile" property="mobile" jdbcType="VARCHAR" />
+				<result column="password" property="password" jdbcType="VARCHAR" />
+				<result column="gesture_password" property="gesturePassword" jdbcType="INTEGER" />
+				<result column="type" property="type" jdbcType="TINYINT" />
+				<result column="status" property="status" jdbcType="TINYINT" />
+				<result column="open_account_status" property="openAccountStatus" jdbcType="TINYINT" />
+				<result column="platform" property="platform" jdbcType="CHAR" />
+				<result column="client" property="client" jdbcType="TINYINT" />
+				<result column="version" property="version" jdbcType="VARCHAR" />
+				<result column="channal" property="channal" jdbcType="INTEGER" />
+				<result column="register_code" property="registerCode" jdbcType="VARCHAR" />
+				<result column="register_ip" property="registerIp" jdbcType="INTEGER" />
+				<result column="last_login_time" property="lastLoginTime" jdbcType="TIMESTAMP" />
+				<result column="last_login_ip" property="lastLoginIp" jdbcType="INTEGER" />
+				<result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+				<result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+				<result column="nickname" property="nickname" jdbcType="VARCHAR" />
+				<result column="openid" property="openid" jdbcType="VARCHAR" />
+				<result column="city" property="city" jdbcType="VARCHAR" />
+				<result column="headimgurl" property="headimgurl" jdbcType="VARCHAR" />
+				<result column="id" property="id" jdbcType="BIGINT" />
+	</resultMap>
+	
+</mapper>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.hy.springboot-demo6:springboot-demo6-service:2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-service/pom.xml!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-service/springboot-demo6-service-2.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-service/springboot-demo6-service-2.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

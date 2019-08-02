@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hy.dao.UserMapper">
+    <resultMap id="BaseResultMap" type="com.hy.model.User">
+        <id column="id" jdbcType="BIGINT" property="id" />
+        <result column="user_code" jdbcType="VARCHAR" property="userCode" />
+        <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="status" jdbcType="TINYINT" property="status" />
+        <result column="open_account_status" jdbcType="TINYINT" property="openAccountStatus" />
+        <result column="platform" jdbcType="CHAR" property="platform" />
+        <result column="client" jdbcType="TINYINT" property="client" />
+        <result column="version" jdbcType="VARCHAR" property="version" />
+        <result column="channal" jdbcType="INTEGER" property="channal" />
+        <result column="register_code" jdbcType="VARCHAR" property="registerCode" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+        <result column="account_org_id" jdbcType="VARCHAR" property="accountOrgId" />
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, user_code, mobile, password, status, open_account_status, platform,
+        client, version, channal, register_code, create_time,
+        update_time
+    </sql>
+
+
+</mapper>

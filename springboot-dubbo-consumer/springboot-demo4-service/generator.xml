@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE generatorConfiguration
+    PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+    "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<!--驱动包的位置 -->
+	<classPathEntry
+		location="C:/Users/shanlin/.m2/repository/mysql/mysql-connector-java/5.1.31/mysql-connector-java-5.1.31.jar" />
+
+	<context id="my" targetRuntime="MyBatis3">
+		<commentGenerator>
+			<property name="suppressDate" value="false" />
+			<!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+			<property name="suppressAllComments" value="true" />
+
+			<property name="autoDelimitKeywords" value="false" />
+			<!-- 生成的Java文件的编码 -->
+			<property name="javaFileEncoding" value="UTF-8" />
+			<!-- 格式化java代码 -->
+			<property name="javaFormatter"
+				value="org.mybatis.generator.api.dom.DefaultJavaFormatter" />
+			<!-- 格式化XML代码 -->
+			<property name="xmlFormatter"
+				value="org.mybatis.generator.api.dom.DefaultXmlFormatter" />
+		</commentGenerator>
+
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://192.168.188.39:3306/sljr_monitor" 
+			userId="zhangguopeng" password="zhangguopeng" /> 
+		<!-- <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost:3306/sljr_lcs" userId="root"
+			password="123123" />-->
+
+		<javaTypeResolver
+			type="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl">
+			<!-- true：使用BigDecimal对应DECIMAL和 NUMERIC数据类型 false：默认, scale>0;length>18：使用BigDecimal; 
+				scale=0;length[10,18]：使用Long； scale=0;length[5,9]：使用Integer； scale=0;length<5：使用Short； -->
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+
+		<!-- 生成模型的包名和位置 -->
+		<javaModelGenerator targetPackage="com.ybd.monitor.model"
+			targetProject="monitor-interface/src/main/java">
+			<property name="enableSubPackages" value="false"></property>  
+            <property name="trimStrings" value="true"></property>  
+            <property name="constructorBased" value="false"></property>  
+            <property name="immutable" value="false" />  
+		</javaModelGenerator>
+		<!-- 生成的映射文件包名和位置:特别注意这里，因为idea必须读取resources下面的文件，除非写maven控件（不建议） -->
+		<sqlMapGenerator targetPackage="com.ybd.monitor.mapper"
+			targetProject="monitor-service/src/main/resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+		<!-- 生成DAO的包名和位置 -->
+		<javaClientGenerator targetPackage="com.ybd.monitor.dao"
+			targetProject="monitor-service/src/main/java" type="XMLMAPPER">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+		<!-- 要生成那些表(更改tableName和domainObjectName就可以) -->
+		<table tableName="monitor_group" enableCountByExample="false" 
+			enableUpdateByExample="false" enableDeleteByExample="false"
+			enableSelectByExample="false" selectByExampleQueryId="false">
+		</table>
+		
+		<table tableName="monitor_log" enableCountByExample="false" 
+			enableUpdateByExample="false" enableDeleteByExample="false"
+			enableSelectByExample="false" selectByExampleQueryId="false">
+		</table>
+
+	</context>
+</generatorConfiguration>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="model-f" />
+        <module name="model-s" />
+        <module name="model-t" />
+        <module name="springboot-async" />
+        <module name="springboot-beatlsql" />
+        <module name="springboot-beetlsql" />
+        <module name="springboot-cache" />
+        <module name="springboot-command-properties" />
+        <module name="springboot-demo1" />
+        <module name="springboot-demo3-interface" />
+        <module name="springboot-demo3-service" />
+        <module name="springboot-demo3-web" />
+        <module name="springboot-demo4-interface" />
+        <module name="springboot-demo4-service" />
+        <module name="springboot-demo4-web" />
+        <module name="springboot-demo5-interface" />
+        <module name="springboot-demo5-service" />
+        <module name="springboot-demo5-web" />
+        <module name="springboot-demo6-interface" />
+        <module name="springboot-demo6-service" />
+        <module name="springboot-demo6-web" />
+        <module name="springboot-elk" />
+        <module name="springboot-file-upload" />
+        <module name="springboot-fileupload" />
+        <module name="springboot-form-submit" />
+        <module name="springboot-form-validate" />
+        <module name="springboot-jpa" />
+        <module name="springboot-mongodb" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-neptune" />
+        <module name="springboot-rabbitmq" />
+        <module name="springboot-redis" />
+        <module name="springboot-redis-message" />
+        <module name="springboot-rest-doc-api" />
+        <module name="springboot-rest-template" />
+        <module name="springboot-schedule" />
+        <module name="springboot-swagger" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="model-f" target="1.8" />
+      <module name="model-s" target="1.8" />
+      <module name="model-t" target="1.8" />
+      <module name="springboot-async" target="1.8" />
+      <module name="springboot-beatlsql" target="1.8" />
+      <module name="springboot-beetlsql" target="1.8" />
+      <module name="springboot-cache" target="1.8" />
+      <module name="springboot-command-properties" target="1.8" />
+      <module name="springboot-demo1" target="1.8" />
+      <module name="springboot-demo3" target="1.8" />
+      <module name="springboot-demo3-interface" target="1.5" />
+      <module name="springboot-demo3-service" target="1.5" />
+      <module name="springboot-demo3-web" target="1.5" />
+      <module name="springboot-demo4" target="1.8" />
+      <module name="springboot-demo4-interface" target="1.5" />
+      <module name="springboot-demo4-service" target="1.5" />
+      <module name="springboot-demo4-web" target="1.5" />
+      <module name="springboot-demo5" target="1.8" />
+      <module name="springboot-demo5-interface" target="1.5" />
+      <module name="springboot-demo5-service" target="1.5" />
+      <module name="springboot-demo5-web" target="1.5" />
+      <module name="springboot-demo6" target="1.8" />
+      <module name="springboot-demo6-interface" target="1.5" />
+      <module name="springboot-demo6-service" target="1.5" />
+      <module name="springboot-demo6-web" target="1.5" />
+      <module name="springboot-dubbo-consumer" target="1.8" />
+      <module name="springboot-dubbo-provider" target="1.8" />
+      <module name="springboot-elk" target="1.8" />
+      <module name="springboot-file-upload" target="1.8" />
+      <module name="springboot-fileupload" target="1.8" />
+      <module name="springboot-form-submit" target="1.8" />
+      <module name="springboot-form-validate" target="1.8" />
+      <module name="springboot-jdbc-deeper" target="1.8" />
+      <module name="springboot-jpa" target="1.8" />
+      <module name="springboot-mongodb" target="1.8" />
+      <module name="springboot-mq-redis" target="1.8" />
+      <module name="springboot-multi-model" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-neptune" target="1.8" />
+      <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+      <module name="springboot-redis-message" target="1.8" />
+      <module name="springboot-rest-doc-api" target="1.8" />
+      <module name="springboot-rest-template" target="1.8" />
+      <module name="springboot-schedule" target="1.8" />
+      <module name="springboot-swagger" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

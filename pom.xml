@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.6.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.hy</groupId>
+	<artifactId>springboot-neptune</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>springboot-neptune</name>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<modules>
+		<module>springboot-async</module>
+		<module>springboot-beetlsql</module>
+		<module>springboot-cache</module>
+		<module>springboot-command-properties</module>
+		<module>springboot-dubbo-consumer</module>
+		<module>springboot-dubbo-provider</module>
+		<module>springboot-elk</module>
+		<module>springboot-file-upload</module>
+		<module>springboot-form-submit</module>
+		<module>springboot-form-validate</module>
+		<module>springboot-jdbc-deeper</module>
+		<module>springboot-jpa</module>
+		<module>springboot-mongodb</module>
+		<module>springboot-mq-redis</module>
+		<module>springboot-multi-model</module>
+		<module>springboot-mybatis</module>
+		<module>springboot-rabbitmq</module>
+		<module>springboot-redis</module>
+		<module>springboot-redis-message</module>
+		<module>springboot-rest-doc-api</module>
+		<module>springboot-rest-template</module>
+		<module>springboot-schedule</module>
+		<module>springboot-swagger</module>
+	</modules>
+
+	<dependencies>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+
+		</plugins>
+	</build>
+
+</project>
