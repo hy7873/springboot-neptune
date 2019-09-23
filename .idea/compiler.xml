@@ -10,11 +10,31 @@
         <module name="model-s" />
         <module name="model-t" />
         <module name="springboot-async" />
-        <module name="springboot-beatlsql" />
         <module name="springboot-beetlsql" />
         <module name="springboot-cache" />
         <module name="springboot-command-properties" />
-        <module name="springboot-demo1" />
+        <module name="springboot-elasticsearch" />
+        <module name="springboot-elk" />
+        <module name="springboot-file-upload" />
+        <module name="springboot-form-submit" />
+        <module name="springboot-form-validate" />
+        <module name="springboot-jpa" />
+        <module name="springboot-mongodb" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-neptune" />
+        <module name="springboot-rabbitmq" />
+        <module name="springboot-redis" />
+        <module name="springboot-redis-message" />
+        <module name="springboot-rest-doc-api" />
+        <module name="springboot-rest-template" />
+        <module name="springboot-rocketmq" />
+        <module name="springboot-schedule" />
+        <module name="springboot-swagger" />
+      </profile>
+      <profile name="Annotation profile for springboot-neptune" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="springboot-demo3-interface" />
         <module name="springboot-demo3-service" />
         <module name="springboot-demo3-web" />
@@ -27,22 +47,6 @@
         <module name="springboot-demo6-interface" />
         <module name="springboot-demo6-service" />
         <module name="springboot-demo6-web" />
-        <module name="springboot-elk" />
-        <module name="springboot-file-upload" />
-        <module name="springboot-fileupload" />
-        <module name="springboot-form-submit" />
-        <module name="springboot-form-validate" />
-        <module name="springboot-jpa" />
-        <module name="springboot-mongodb" />
-        <module name="springboot-mybatis" />
-        <module name="springboot-neptune" />
-        <module name="springboot-rabbitmq" />
-        <module name="springboot-redis" />
-        <module name="springboot-redis-message" />
-        <module name="springboot-rest-doc-api" />
-        <module name="springboot-rest-template" />
-        <module name="springboot-schedule" />
-        <module name="springboot-swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -50,32 +54,26 @@
       <module name="model-s" target="1.8" />
       <module name="model-t" target="1.8" />
       <module name="springboot-async" target="1.8" />
-      <module name="springboot-beatlsql" target="1.8" />
       <module name="springboot-beetlsql" target="1.8" />
       <module name="springboot-cache" target="1.8" />
       <module name="springboot-command-properties" target="1.8" />
-      <module name="springboot-demo1" target="1.8" />
-      <module name="springboot-demo3" target="1.8" />
       <module name="springboot-demo3-interface" target="1.5" />
       <module name="springboot-demo3-service" target="1.5" />
       <module name="springboot-demo3-web" target="1.5" />
-      <module name="springboot-demo4" target="1.8" />
       <module name="springboot-demo4-interface" target="1.5" />
       <module name="springboot-demo4-service" target="1.5" />
       <module name="springboot-demo4-web" target="1.5" />
-      <module name="springboot-demo5" target="1.8" />
       <module name="springboot-demo5-interface" target="1.5" />
       <module name="springboot-demo5-service" target="1.5" />
       <module name="springboot-demo5-web" target="1.5" />
-      <module name="springboot-demo6" target="1.8" />
       <module name="springboot-demo6-interface" target="1.5" />
       <module name="springboot-demo6-service" target="1.5" />
       <module name="springboot-demo6-web" target="1.5" />
       <module name="springboot-dubbo-consumer" target="1.8" />
       <module name="springboot-dubbo-provider" target="1.8" />
+      <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-elk" target="1.8" />
       <module name="springboot-file-upload" target="1.8" />
-      <module name="springboot-fileupload" target="1.8" />
       <module name="springboot-form-submit" target="1.8" />
       <module name="springboot-form-validate" target="1.8" />
       <module name="springboot-jdbc-deeper" target="1.8" />
@@ -90,6 +88,7 @@
       <module name="springboot-redis-message" target="1.8" />
       <module name="springboot-rest-doc-api" target="1.8" />
       <module name="springboot-rest-template" target="1.8" />
+      <module name="springboot-rocketmq" target="1.8" />
       <module name="springboot-schedule" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
     </bytecodeTargetLevel>

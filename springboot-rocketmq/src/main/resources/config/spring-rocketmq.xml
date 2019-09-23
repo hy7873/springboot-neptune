@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!-- 定义consumer的参数 -->
+    <bean id="producer" class="com.easy.mq.config.producer.RocketProducerConfig">
+        <property name="address" value="${mq.address}"  />
+    </bean>
+
+    <bean id="rocketClient" class="com.easy.mq.client.RocketClient">
+        <constructor-arg ref="producer" />
+    </bean>
+
+
+    <bean id="groups" class="java.util.HashMap">
+        <constructor-arg>
+            <map>
+                <entry key="dpc" value="dpc-group" />
+            </map>
+        </constructor-arg>
+    </bean>
+
+
+    <!-- 定义consumer的参数 -->
+    <bean id="consumer" class="java.util.HashMap">
+        <constructor-arg>
+            <map>
+                <entry key="address" value="${mq.address}" />
+                <entry key="groups" value-ref="groups" />
+                <!-- 					表示使用jackson序列化传输 -->
+                <!-- 				<entry key="transfer" value="com.easy.mq.transition.JackSon"/> -->
+                <!-- 					表示使用字节传输用对象可以接收 -->
+                <entry key="transfer" value="com.easy.mq.transition.Serialize"/>
+            </map>
+        </constructor-arg>
+    </bean>
+
+    <bean id="message" class="com.easy.mq.factory.RocketConfigFactory" >
+        <constructor-arg ref="consumer"/>
+    </bean>
+
+
+
+</beans>

@@ -6,32 +6,26 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-multi-model/model-s/model-s.iml" filepath="$PROJECT_DIR$/springboot-multi-model/model-s/model-s.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-multi-model/model-t/model-t.iml" filepath="$PROJECT_DIR$/springboot-multi-model/model-t/model-t.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-beetlsql/springboot-beatlsql.iml" filepath="$PROJECT_DIR$/springboot-beetlsql/springboot-beatlsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-beetlsql/springboot-beetlsql.iml" filepath="$PROJECT_DIR$/springboot-beetlsql/springboot-beetlsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-cache/springboot-cache.iml" filepath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-command-properties/springboot-command-properties.iml" filepath="$PROJECT_DIR$/springboot-command-properties/springboot-command-properties.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-command-properties/springboot-demo1.iml" filepath="$PROJECT_DIR$/springboot-command-properties/springboot-demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-interface/springboot-demo3-interface.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-interface/springboot-demo3-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-service/springboot-demo3-service.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-service/springboot-demo3-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-web/springboot-demo3-web.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-web/springboot-demo3-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-interface/springboot-demo4-interface.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-interface/springboot-demo4-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-service/springboot-demo4-service.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-service/springboot-demo4-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-web/springboot-demo4-web.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-web/springboot-demo4-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-mq-redis/springboot-demo5.iml" filepath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-interface/springboot-demo5-interface.iml" filepath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-interface/springboot-demo5-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-service/springboot-demo5-service.iml" filepath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-service/springboot-demo5-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-web/springboot-demo5-web.iml" filepath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-web/springboot-demo5-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6.iml" filepath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-interface/springboot-demo6-interface.iml" filepath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-interface/springboot-demo6-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-service/springboot-demo6-service.iml" filepath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-service/springboot-demo6-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-web/springboot-demo6-web.iml" filepath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-web/springboot-demo6-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-dubbo-provider.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elk/springboot-elk.iml" filepath="$PROJECT_DIR$/springboot-elk/springboot-elk.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-file-upload/springboot-file-upload.iml" filepath="$PROJECT_DIR$/springboot-file-upload/springboot-file-upload.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-file-upload/springboot-fileupload.iml" filepath="$PROJECT_DIR$/springboot-file-upload/springboot-fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-form-submit/springboot-form-submit.iml" filepath="$PROJECT_DIR$/springboot-form-submit/springboot-form-submit.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-form-validate/springboot-form-validate.iml" filepath="$PROJECT_DIR$/springboot-form-validate/springboot-form-validate.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-jdbc-deeper.iml" filepath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-jdbc-deeper.iml" />
@@ -46,6 +40,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-redis-message/springboot-redis-message.iml" filepath="$PROJECT_DIR$/springboot-redis-message/springboot-redis-message.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rest-doc-api/springboot-rest-doc-api.iml" filepath="$PROJECT_DIR$/springboot-rest-doc-api/springboot-rest-doc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rest-template/springboot-rest-template.iml" filepath="$PROJECT_DIR$/springboot-rest-template/springboot-rest-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rocketmq/springboot-rocketmq.iml" filepath="$PROJECT_DIR$/springboot-rocketmq/springboot-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-schedule/springboot-schedule.iml" filepath="$PROJECT_DIR$/springboot-schedule/springboot-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
     </modules>
