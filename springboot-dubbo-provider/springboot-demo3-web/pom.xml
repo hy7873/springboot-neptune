@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.hy.springboot-demo3</groupId>
-		<artifactId>springboot-demo3</artifactId>
+		<groupId>com.hy.springboot-dubbo-provider</groupId>
+		<artifactId>springboot-dubbo-provider</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 

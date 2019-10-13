@@ -6,69 +6,54 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="model-f" />
-        <module name="model-s" />
-        <module name="model-t" />
-        <module name="springboot-async" />
-        <module name="springboot-beetlsql" />
-        <module name="springboot-cache" />
-        <module name="springboot-command-properties" />
-        <module name="springboot-elasticsearch" />
-        <module name="springboot-elk" />
-        <module name="springboot-file-upload" />
-        <module name="springboot-form-submit" />
-        <module name="springboot-form-validate" />
-        <module name="springboot-jpa" />
-        <module name="springboot-mongodb" />
         <module name="springboot-mybatis" />
-        <module name="springboot-neptune" />
+        <module name="model-t" />
+        <module name="model-s" />
+        <module name="springboot-form-validate" />
         <module name="springboot-rabbitmq" />
+        <module name="springboot-elk" />
         <module name="springboot-redis" />
-        <module name="springboot-redis-message" />
-        <module name="springboot-rest-doc-api" />
-        <module name="springboot-rest-template" />
-        <module name="springboot-rocketmq" />
+        <module name="model-f" />
+        <module name="springboot-jpa" />
+        <module name="springboot-command-properties" />
+        <module name="springboot-form-submit" />
+        <module name="springboot-beetlsql" />
         <module name="springboot-schedule" />
+        <module name="springboot-redis-message" />
+        <module name="springboot-cache" />
+        <module name="springboot-rest-doc-api" />
+        <module name="springboot-elasticsearch" />
+        <module name="springboot-rocketmq" />
+        <module name="springboot-apollo" />
         <module name="springboot-swagger" />
-      </profile>
-      <profile name="Annotation profile for springboot-neptune" enabled="true">
-        <sourceOutputDir name="../../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="springboot-demo3-interface" />
-        <module name="springboot-demo3-service" />
-        <module name="springboot-demo3-web" />
-        <module name="springboot-demo4-interface" />
-        <module name="springboot-demo4-service" />
-        <module name="springboot-demo4-web" />
-        <module name="springboot-demo5-interface" />
-        <module name="springboot-demo5-service" />
-        <module name="springboot-demo5-web" />
-        <module name="springboot-demo6-interface" />
-        <module name="springboot-demo6-service" />
-        <module name="springboot-demo6-web" />
+        <module name="springboot-neptune" />
+        <module name="springboot-file-upload" />
+        <module name="springboot-rest-template" />
+        <module name="springboot-mongodb" />
+        <module name="springboot-async" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
       <module name="model-f" target="1.8" />
       <module name="model-s" target="1.8" />
       <module name="model-t" target="1.8" />
+      <module name="springboot-apollo" target="1.8" />
       <module name="springboot-async" target="1.8" />
       <module name="springboot-beetlsql" target="1.8" />
       <module name="springboot-cache" target="1.8" />
       <module name="springboot-command-properties" target="1.8" />
-      <module name="springboot-demo3-interface" target="1.5" />
-      <module name="springboot-demo3-service" target="1.5" />
-      <module name="springboot-demo3-web" target="1.5" />
-      <module name="springboot-demo4-interface" target="1.5" />
-      <module name="springboot-demo4-service" target="1.5" />
-      <module name="springboot-demo4-web" target="1.5" />
-      <module name="springboot-demo5-interface" target="1.5" />
-      <module name="springboot-demo5-service" target="1.5" />
-      <module name="springboot-demo5-web" target="1.5" />
-      <module name="springboot-demo6-interface" target="1.5" />
-      <module name="springboot-demo6-service" target="1.5" />
-      <module name="springboot-demo6-web" target="1.5" />
+      <module name="springboot-demo3-interface" target="1.8" />
+      <module name="springboot-demo3-service" target="1.8" />
+      <module name="springboot-demo3-web" target="1.8" />
+      <module name="springboot-demo4-interface" target="1.8" />
+      <module name="springboot-demo4-service" target="1.8" />
+      <module name="springboot-demo4-web" target="1.8" />
+      <module name="springboot-demo5-interface" target="1.8" />
+      <module name="springboot-demo5-service" target="1.8" />
+      <module name="springboot-demo5-web" target="1.8" />
+      <module name="springboot-demo6-interface" target="1.8" />
+      <module name="springboot-demo6-service" target="1.8" />
+      <module name="springboot-demo6-web" target="1.8" />
       <module name="springboot-dubbo-consumer" target="1.8" />
       <module name="springboot-dubbo-provider" target="1.8" />
       <module name="springboot-elasticsearch" target="1.8" />
@@ -92,5 +77,46 @@
       <module name="springboot-schedule" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="model-f" options="-parameters" />
+      <module name="model-s" options="-parameters" />
+      <module name="model-t" options="-parameters" />
+      <module name="springboot-apollo" options="-parameters" />
+      <module name="springboot-async" options="-parameters" />
+      <module name="springboot-beetlsql" options="-parameters" />
+      <module name="springboot-cache" options="-parameters" />
+      <module name="springboot-command-properties" options="-parameters" />
+      <module name="springboot-demo3-interface" options="-parameters" />
+      <module name="springboot-demo3-service" options="-parameters" />
+      <module name="springboot-demo3-web" options="-parameters" />
+      <module name="springboot-demo4-interface" options="-parameters" />
+      <module name="springboot-demo4-service" options="-parameters" />
+      <module name="springboot-demo4-web" options="-parameters" />
+      <module name="springboot-demo5-interface" options="-parameters" />
+      <module name="springboot-demo5-service" options="-parameters" />
+      <module name="springboot-demo5-web" options="-parameters" />
+      <module name="springboot-demo6-interface" options="-parameters" />
+      <module name="springboot-demo6-service" options="-parameters" />
+      <module name="springboot-demo6-web" options="-parameters" />
+      <module name="springboot-elasticsearch" options="-parameters" />
+      <module name="springboot-elk" options="-parameters" />
+      <module name="springboot-file-upload" options="-parameters" />
+      <module name="springboot-form-submit" options="-parameters" />
+      <module name="springboot-form-validate" options="-parameters" />
+      <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-mongodb" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-neptune" options="-parameters" />
+      <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-redis-message" options="-parameters" />
+      <module name="springboot-rest-doc-api" options="-parameters" />
+      <module name="springboot-rest-template" options="-parameters" />
+      <module name="springboot-rocketmq" options="-parameters" />
+      <module name="springboot-schedule" options="-parameters" />
+      <module name="springboot-swagger" options="-parameters" />
+    </option>
   </component>
 </project>

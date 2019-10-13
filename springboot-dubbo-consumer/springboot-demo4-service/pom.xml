@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.hy.springboot-demo4</groupId>
-		<artifactId>springboot-demo4</artifactId>
+		<groupId>com.hy.springboot-dubbo-consumer</groupId>
+		<artifactId>springboot-dubbo-consumer</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 

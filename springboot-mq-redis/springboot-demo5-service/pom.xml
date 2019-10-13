@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.hy.springboot-demo5</groupId>
-		<artifactId>springboot-demo5</artifactId>
+		<groupId>com.hy.springboot-mq-redis</groupId>
+		<artifactId>springboot-mq-redis</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 

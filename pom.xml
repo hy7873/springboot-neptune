@@ -23,16 +23,12 @@
 		<module>springboot-beetlsql</module>
 		<module>springboot-cache</module>
 		<module>springboot-command-properties</module>
-		<module>springboot-dubbo-consumer</module>
-		<module>springboot-dubbo-provider</module>
 		<module>springboot-elk</module>
 		<module>springboot-file-upload</module>
 		<module>springboot-form-submit</module>
 		<module>springboot-form-validate</module>
-		<module>springboot-jdbc-deeper</module>
 		<module>springboot-jpa</module>
 		<module>springboot-mongodb</module>
-		<module>springboot-mq-redis</module>
 		<module>springboot-multi-model</module>
 		<module>springboot-mybatis</module>
 		<module>springboot-rabbitmq</module>
@@ -42,6 +38,8 @@
 		<module>springboot-rest-template</module>
 		<module>springboot-schedule</module>
 		<module>springboot-swagger</module>
+		<module>springboot-elasticsearch</module>
+		<module>springboot-rocketmq</module>
 	</modules>
 
 	<dependencies>

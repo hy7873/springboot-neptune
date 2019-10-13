@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-apollo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-async" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-beetlsql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-cache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-command-properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-elk" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-file-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-form-submit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-form-validate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jdbc-deeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mq-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-multi-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-multi-model/model-f" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-multi-model/model-s" charset="UTF-8" />
@@ -30,6 +43,5 @@
     <file url="file://$PROJECT_DIR$/springboot-rocketmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-schedule" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-swagger" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
