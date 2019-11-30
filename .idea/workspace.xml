@@ -2,138 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94e54629-29a1-4920-9f3f-b25a40a2d797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_client_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_core_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_51.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-apollo/src/main/java/com/hy/springbootapollo/config/ConfigUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-apollo/src/main/java/com/hy/springbootapollo/encrypt/BeanMapUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-apollo/src/main/java/com/hy/springbootapollo/encrypt/EncryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-apollo/src/main/java/com/hy/springbootapollo/encrypt/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-apollo/src/main/java/com/hy/springbootapollo/encrypt/RsaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-apollo/src/main/java/com/hy/springbootapollo/encrypt/SignUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dubbo_springboot_spring_boot_starter_dubbo_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_39_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_38_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_38_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_38_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_38_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_38_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_38_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_38_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/client/TransactionListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/client/TransactionProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/service/PersonInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/transaction/MQProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/transaction/TransactionExecuterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-async/springboot-async.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-async/springboot-async.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-beetlsql/springboot-beetlsql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-beetlsql/springboot-beetlsql.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-interface/springboot-demo4-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-interface/springboot-demo4-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-service/springboot-demo4-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-service/springboot-demo4-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-web/springboot-demo4-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-demo4-web/springboot-demo4-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-interface/springboot-demo3-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-interface/springboot-demo3-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-service/springboot-demo3-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-service/springboot-demo3-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-web/springboot-demo3-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-demo3-web/springboot-demo3-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-dubbo-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-dubbo-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elk/springboot-elk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elk/springboot-elk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-file-upload/springboot-file-upload.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-file-upload/springboot-file-upload.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-form-submit/springboot-form-submit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-form-submit/springboot-form-submit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-form-validate/springboot-form-validate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-form-validate/springboot-form-validate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jdbc-deeper/springboot-demo6-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-interface/springboot-demo5-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-interface/springboot-demo5-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-service/springboot-demo5-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-service/springboot-demo5-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-web/springboot-demo5-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mq-redis/springboot-demo5-web/springboot-demo5-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mq-redis/springboot-mq-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mq-redis/springboot-mq-redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis-message/springboot-redis-message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis-message/springboot-redis-message.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rest-doc-api/springboot-rest-doc-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rest-doc-api/springboot-rest-doc-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rest-template/springboot-rest-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rest-template/springboot-rest-template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rocketmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rocketmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rocketmq/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-schedule/springboot-schedule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-schedule/springboot-schedule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/client/RocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/client/RocketClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +63,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootApolloApplication">
+  <component name="RunManager" selected="Application.TransactionProducer">
+    <configuration name="TransactionProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hy.client.TransactionProducer" />
+      <module name="springboot-rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hy.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootApolloApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-apollo" />
       <extension name="coverage">
@@ -368,6 +256,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransactionProducer" />
         <item itemvalue="JUnit.SpringbootApolloApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -387,5 +276,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/client/TransactionListenerImpl.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/client/TransactionProducer.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/hy/client/TransactionListenerImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

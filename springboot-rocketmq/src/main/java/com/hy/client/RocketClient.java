@@ -38,7 +38,7 @@ public class RocketClient {
             Message message = new Message("Test_topic","push","--- message send -----".getBytes());
             StopWatch stopWatch = new StopWatch();
             stopWatch.start();
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 1; i++) {
                 SendResult sendResult = defaultMQProducer.send(message);
                 System.out.println("发送消息id：" + sendResult.getMsgId() + "发送状态：" + sendResult.getSendStatus());
             }
