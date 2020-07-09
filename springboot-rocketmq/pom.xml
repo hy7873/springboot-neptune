@@ -31,15 +31,10 @@
 
 		<dependency>
 			<groupId>org.apache.rocketmq</groupId>
-			<artifactId>rocketmq-common</artifactId>
-			<version>4.5.2</version>
+			<artifactId>rocketmq-spring-boot-starter</artifactId>
+			<version>${rocketmq.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.apache.rocketmq</groupId>
-			<artifactId>rocketmq-client</artifactId>
-			<version>4.5.2</version>
-		</dependency>
 	</dependencies>
 
 	<build>

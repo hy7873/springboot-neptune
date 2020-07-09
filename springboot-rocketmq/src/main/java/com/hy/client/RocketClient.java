@@ -18,7 +18,6 @@ import javax.annotation.PostConstruct;
  * @Copyright:reach-life
  * @Description:
  */
-@Component
 public class RocketClient {
 
     @Value("${apache.rocketmq.producer.producerGroup}")
@@ -32,13 +31,14 @@ public class RocketClient {
     public void defaultMqProducer() {
         DefaultMQProducer defaultMQProducer = new DefaultMQProducer(producerGroup);
         defaultMQProducer.setNamesrvAddr(nameAddr);
+        defaultMQProducer.setSendMsgTimeout(6000);
         defaultMQProducer.setVipChannelEnabled(false);
         try {
             defaultMQProducer.start();
             Message message = new Message("Test_topic","push","--- message send -----".getBytes());
             StopWatch stopWatch = new StopWatch();
             stopWatch.start();
-            for (int i = 0; i < 1; i++) {
+            for (int i = 0; i < 10; i++) {
                 SendResult sendResult = defaultMQProducer.send(message);
                 System.out.println("发送消息id：" + sendResult.getMsgId() + "发送状态：" + sendResult.getSendStatus());
             }

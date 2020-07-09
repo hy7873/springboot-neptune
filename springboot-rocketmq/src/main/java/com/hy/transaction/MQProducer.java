@@ -16,7 +16,6 @@ import java.util.Map;
  * @Description:
  */
 
-@Component
 public class MQProducer {
 
     private final String GROUP_NAME = "xxxx";

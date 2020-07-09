@@ -21,13 +21,22 @@ public class SpringbootRedisApplicationTests {
 	@Test
 	public void contextLoads() {
 
-		redisDao.setCache("name","wanghai",2L);
+		for (int i = 0; i < 100; i++) {
+			redisDao.setCache("name" + i,"wanghai",2L);
 
-		String name = redisDao.getCache("name");
+			String name = redisDao.getCache("name" + i);
 
-		System.out.println("name = " + name);
+			System.out.println("name = " + name);
 
-		logger.info("name = {}",name);
+			logger.info("name = {}",name);
+		}
+
+	}
+
+	@Test
+	public void test1() {
+		long id = redisDao.incrBy("test1243",1);
+		System.out.println(id);
 	}
 
 }

@@ -21,7 +21,6 @@ import java.util.List;
  * @Copyright:reach-life
  * @Description:
  */
-@Component
 public class RocketServer {
 
     @Value("${apache.rocketmq.consumer.PushConsumer}")
